@@ -1,4 +1,10 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="AKTV.id" tvg-logo="https://i.imgur.com/DUY5WXf.png" group-title="General",AKTV (720p)
+https://e.siar.us/live/aktv.m3u8
+
+#EXTINF:-1 tvg-id="BBCNewsAsiaPacific.uk" tvg-logo="https://i.imgur.com/REuN9RR.png" group-title="News",BBC News Asia Pacific (720p)
+https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
+
 #EXTINF:0 tvg-country="ID" tvg-logo="https://i.imgur.com/fpFs6Ay.png" group-title="Undefined",Bandung TV
 http://202.150.153.254:65500/bandungtvWEBSITE.m3u8?checkedby:iptvcat.org
 
@@ -10,6 +16,9 @@ https://b1world.beritasatumedia.com/Beritasatu/B1World_1280x720.m3u8
 
 #EXTINF:0 tvg-country="ID" tvg-logo="https://m3u-editor.com/storage/channel-logos/07cd9d90-3cc5-11ea-9aa8-0b5bd3ba261d/92697/14040323.png" group-title="News",BeritaSatu
 https://b1news.beritasatumedia.com/Beritasatu/B1News_1280x720.m3u8?checkedby:iptvcat.org
+
+#EXTINF:-1 tvg-id="CartoonNetworkAsia.sg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="Animation;Kids",Cartoon Network Southeast Asia (1080p)
+https://cdn1.skygo.mn/live/disk1/Cartoon_Network/HLS-FTA/Cartoon_Network.m3u8
 
 #EXTINF:0 tvg-country="ID" tvg-logo="" group-title="Business;Undefined",CNBC Indonesia
 http://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist_w528900641_b384000_sleng.m3u8?checkedby:iptvcat.org
@@ -35,7 +44,7 @@ https://rrinet.rri.co.id/hls/live.m3u8?checkedby:iptvcat.org
 #EXTINF:0 tvg-country="ID" tvg-logo="Logo N/A" group-title="Undefined",Radio 51 TV
 http://59d7d6f47d7fc.streamlock.net/canale51/canale51/playlist.m3u8?checkedby:iptvcat.org
 
-#EXTINF:0 tvg-country="ID" tvg-logo="https://i.imgur.com/dlsv1sl.png" group-title="Undefined",Rajawali TV
+#EXTINF:0 tvg-country="ID" tvg-logo="https://i.imgur.com/dlsv1sl.png" group-title="Undefined",RTV
 https://cdn09jtedge.indihometv.com/joss/130/rtv/index.m3u8?checkedby:iptvcat.org
 
 #EXTINF:0 tvg-country="ID" tvg-logo="https://i.imgur.com/IGIX3o8.jpg" group-title="Lifestyle",TV Kesehatan (1080p)
@@ -43,13 +52,3 @@ https://5bf7b725107e5.streamlock.net/tvkesehatan/tvkesehatan/playlist.m3u8?check
 
 #EXTINF:0 tvg-country="ID" tvg-logo="https://i.imgur.com/rR2iPBk.png" group-title="Undefined",TV Mu (720p) [Not 24/7]
 https://e.siar.us/live/tvmu.m3u8?checkedby:iptvcat.org
-
-#EXTINF:0 tvg-country="ID" tvg-logo="https://i.imgur.com/lSgiYnp.png" group-title="Undefined",TVRI DKI Jakarta (720p) [Not 24/7]
-http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIDKI)/index.m3u8?checkedby:iptvcat.org
-
-#EXTINF:0 tvg-country="ID" tvg-logo="https://i.imgur.com/rrRMl08.png" group-title="Undefined",TVRI Jawa Barat (480p)
-http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIJABARBANDUNG)/index.m3u8?checkedby:iptvcat.org
-
-#EXTINF:0 tvg-country="ID" tvg-logo="" group-title="Undefined",TVRI World (720p)
-http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRI3)/index.m3u8?checkedby:iptvcat.org
-
