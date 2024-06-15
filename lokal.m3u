@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:0 tvg-country="ID" tvg-logo="https://i.imgur.com/DUY5WXf.png" group-title="Undefined",AKTV (720p)
-https://e.siar.us/live/aktv.m3u8?checkedby:iptvcat.org
 #EXTINF:0 tvg-country="AF;AU;ID" tvg-logo="https://i.imgur.com/REuN9RR.png" group-title="News",BBC News Asia Pacific (720p)
 https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8?checkedby:iptvcat.org
 #EXTINF:0 tvg-country="ID" tvg-logo="https://i.imgur.com/fpFs6Ay.png" group-title="Undefined",Bandung TV
@@ -9,10 +7,6 @@ http://202.150.153.254:65500/bandungtvWEBSITE.m3u8?checkedby:iptvcat.org
 https://5bf7b725107e5.streamlock.net/bantentv/bantentv/playlist.m3u8?checkedby:iptvcat.org
 #EXTINF:0 tvg-country="ID" tvg-logo="https://m3u-editor.com/storage/channel-logos/07cd9d90-3cc5-11ea-9aa8-0b5bd3ba261d/92697/14040323.png" group-title="News",BeritaSatu
 https://b1news.beritasatumedia.com/Beritasatu/B1News_1280x720.m3u8?checkedby:iptvcat.org
-#EXTINF:0 tvg-country="ID" tvg-logo="https://m3u-editor.com/storage/channel-logos/07cd9d90-3cc5-11ea-9aa8-0b5bd3ba261d/92697/14040323.png" group-title="News",BeritaSatu
-https://b1news.beritasatumedia.com/Beritasatu/B1News_320x240.m3u8?checkedby:iptvcat.org
-#EXTINF:0 tvg-country="ID" tvg-logo="https://m3u-editor.com/storage/channel-logos/07cd9d90-3cc5-11ea-9aa8-0b5bd3ba261d/92697/14040323.png" group-title="News",BeritaSatu
-https://b1news.beritasatumedia.com/Beritasatu/B1News_960x540.m3u8?checkedby:iptvcat.org
 #EXTINF:0 tvg-country="ID" tvg-logo="https://upload.wikimedia.org/wikipedia/id/3/35/CNBC_Indonesia.png" group-title="Business;Undefined",CNBC Indonesia
 https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8?checkedby:iptvcat.org
 #EXTINF:0 tvg-country="ID" tvg-logo="" group-title="Business;Undefined",CNBC Indonesia
