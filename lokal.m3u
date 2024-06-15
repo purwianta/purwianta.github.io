@@ -53,11 +53,11 @@ https://rrinet.rri.co.id/hls/live.m3u8?checkedby:iptvcat.org
 #EXTINF:0 tvg-country="ID" tvg-logo="Logo N/A" group-title="Undefined",Radio 51 TV
 http://59d7d6f47d7fc.streamlock.net/canale51/canale51/playlist.m3u8?checkedby:iptvcat.org
 
-#EXTINF:-1 tvg-id="SaktiTV.id" tvg-logo="https://i.imgur.com/IDNjMfQ.png" group-title="Undefined",Sakti TV (720p)
-https://saktitv.siar.us/saktitv/live/playlist.m3u8
-
 #EXTINF:0 tvg-country="ID" tvg-logo="https://i.imgur.com/dlsv1sl.png" group-title="Undefined",RTV
 https://cdn09jtedge.indihometv.com/joss/130/rtv/index.m3u8?checkedby:iptvcat.org
+
+#EXTINF:-1 tvg-id="SaktiTV.id" tvg-logo="https://i.imgur.com/IDNjMfQ.png" group-title="Undefined",Sakti TV (720p)
+https://saktitv.siar.us/saktitv/live/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Trans7.id" tvg-logo="https://i.imgur.com/fAbGImS.png" group-title="General",Trans7 (720p)
 https://video.detik.com/trans7/smil:trans7.smil/index.m3u8
@@ -67,3 +67,6 @@ https://5bf7b725107e5.streamlock.net/tvkesehatan/tvkesehatan/playlist.m3u8?check
 
 #EXTINF:0 tvg-country="ID" tvg-logo="https://i.imgur.com/rR2iPBk.png" group-title="Undefined",TV Mu (720p) [Not 24/7]
 https://e.siar.us/live/tvmu.m3u8?checkedby:iptvcat.org
+
+#EXTINF:-1 tvg-id="tvOne.id" tvg-logo="https://i.imgur.com/LCzQYdy.png" group-title="Undefined",tvOne (1080p)
+https://ythls.armelin.one/channel/UCER4rvDnRBPr_ncYW4UCZjg.m3u8
