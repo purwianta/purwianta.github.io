@@ -1,0 +1,76 @@
+---
+proxy-groups:
+dns:
+  nameserver:
+  - 8.8.8.8
+  - 8.8.4.4
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  listen: 127.0.0.1:7874
+  fake-ip-filter:
+  - "+.*"
+  default-nameserver:
+  - 8.8.8.8
+  - 8.8.4.4
+redir-port: 7892
+tproxy-port: 7895
+port: 7890
+socks-port: 7891
+mixed-port: 7893
+mode: rule
+log-level: silent
+allow-lan: true
+external-controller: 0.0.0.0:9090
+secret: reyre
+bind-address: "*"
+external-ui: "/usr/share/openclash/dashboard"
+ipv6: false
+tun:
+  enable: true
+  stack: system
+  dns-hijack:
+  - tcp://8.8.8.8:53
+  - tcp://8.8.4.4:53
+profile:
+  store-selected: true
+  store-fake-ip: true
+rules:
+- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
+- RULE-SET,Direct,DIRECT
+- RULE-SET,Gaming,Gaming
+- RULE-SET,Reject,REJECT
+- RULE-SET,Sosmed,Sosmed
+- RULE-SET,Streaming,Streaming
+- MATCH,GLOBAL
+rule-providers:
+  Direct:
+    type: file
+    behavior: classical
+    path: "./rule_provider/direct.yaml"
+  Gaming:
+    type: file
+    behavior: classical
+    path: "./rule_provider/gaming.yaml"
+  Reject:
+    type: file
+    behavior: classical
+    path: "./rule_provider/reject.yaml"
+  Sosmed:
+    type: file
+    behavior: classical
+    path: "./rule_provider/sosmed.yaml"
+  Streaming:
+    type: file
+    behavior: classical
+    path: "./rule_provider/streaming.yaml"
+proxies:
+- name: TJunli
+  type: trojan
+  server: id-1.tjvpn.org
+  port: 443
+  password: 711add90-bf18-11ec-b835-225401db9d57
+  udp: true
+  sni: spotify.com
+  skip-cert-verify: true
